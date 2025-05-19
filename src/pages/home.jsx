@@ -56,12 +56,14 @@ const Home = () => {
     },[])
     
     return <div>
-        <h1>Your Intake</h1>
+        <h3>Your Intake</h3>
         <ul>
-            {foods.map(f => (<li id={f.id}>{f.calories}</li>))}
+            {foods.map(f => (<li key={f.id}>  {f.calories}  {f.food_name}</li>))}
         </ul>
 
 
+
+        {/* <h4>Add new Food Item</h4>
         <form onSubmit={addFood}>
 
             <h5>Name: </h5>
@@ -84,13 +86,7 @@ const Home = () => {
             <br/>
             <input type='submit' value='Add Food'/>
 
-
-
-
-
-
-
-        </form>
+        </form> */}
     </div>
     
 }

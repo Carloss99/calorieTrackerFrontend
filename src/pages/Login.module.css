@@ -1,0 +1,64 @@
+.loginContainer{
+     width:100vw;
+     height:100vh;
+     font-size: 1.1em;
+     display: flex;
+     color:#0BEA36;
+     
+}
+
+
+.formstyle {
+     
+     display:flex;
+     height: 70%;
+     width:30%;
+     margin: auto;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items:center;
+     border:.1em solid #0BEA36;
+     border-radius: 2em;
+     
+     
+     }
+
+.Button{
+     display:inline;
+     color:#0BEA36;
+     padding:.7em;
+     border-radius: 10px;
+     border:.1em solid #0BEA36;
+     font-family: "Roboto Mono", monospace;
+     background:#242424;
+     height:100%;
+     width:8em;
+}
+
+.Button:hover{
+     background: #0BEA36;
+     color:#242424;
+}
+
+
+
+.usernameContainer{
+     width: 70%;
+     display:flex;
+     justify-content: space-evenly;
+}
+
+.passwordContainer{
+     width: 70%;
+     display:flex;
+     justify-content: space-evenly;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+     .formstyle{
+          width: 80vw;
+     }
+}
